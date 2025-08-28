@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 20px 40px;
+  /* position: sticky; */
+}
+.logo {
+  width: 320px;
+  height: 100%;
+}
+.left-tab {
+  flex: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.right-tab {
+  display: flex;
+  flex: 50%;
+  gap: 30px;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.right-tab:hover {
+  cursor: pointer;
+  color: rgb(156, 121, 188);
+  font-style: italic;
+}
+.right-tab span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
