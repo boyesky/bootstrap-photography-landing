@@ -41,3 +41,17 @@ footer ul li {
   margin-top: 50px;
   gap: 30px;
 }
+
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+    margin-bottom: 0;
+    gap: 0;
+  }
+  .font {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: small;
+  }
+}
